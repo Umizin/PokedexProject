@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #0D47A1, #1976D2);
+}
+
+.containerMenu{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 10vh;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+}
+
+.mainSec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    padding: 2rem 10rem;
+}
+
+.containerPokemons{
+    height: 20vh;
+    display: flex;
+    max-height: 100%;
+}
+
+.infosPokemons{
+    display: flex;
+    width: 16vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(255, 235, 59, 0.7) ;
+    border: none;
+    border-radius: 1em;
+
+}
+
+.infosPokemons h2{
+    color: #0D47A1;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.gridF{
+    display: grid;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.setaDireita{
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+}
+
+.setaDireita :hover{
+    cursor:pointer;
+}
+
+.setaEsquerda{
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+}
+
+.setaEsquerda :hover{
+    cursor:pointer;
+}
+
+.miniIcon{
+    display: grid;
+    height: 25vh;
+    width: 50vw;
+    margin: 0 auto;
+    padding-bottom: 4em;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5,1fr);
+    
+}
+
+.primeiracaixa{
+    display: flex;
+    
+    gap:0.5em;
+    border: 0.1px solid yellow;
+}
