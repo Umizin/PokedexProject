@@ -9,39 +9,31 @@
 <body>
     <header>
         <nav class="containerMenu">
+            <button id="menuButton">Menu</button>
             <div class="logo">
-                <img src="612ce4761b9679000402af1c.png" alt="">
+                <h1 class="pokemon-logo">Pokedex</h1>
             </div>
         </nav>
     </header>
-    <section class="mainSec">
-        <span class="setaEsquerda">
+    <div id="sidebar" class="sidebar">
+        <ul id="pokemonList"></ul>
+    </div>
+    <div class="inputPokemon">
+        <span class="seta" id="setaEsquerda">
             <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-left-256.png" alt="">
         </span>
-        <div class="containerPokemons">
-
-        </div>
-        <div class="infosPokemons">
-            
-        </div>
-        <span class="setaDireita">
+        <input type="text" id="pokemonInput" placeholder="Digite o nome ou ID do Pokémon" autofocus>
+        <span class="seta" id="setaDireita">
             <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-right-512.png" alt="">
         </span>
-        </section>
-        <div class="miniIcon">
-            <div class="primeiracaixa">
-             <img src="https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0001/Normal.png" alt="">
-             <img src="https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0002/Normal.png" alt="">
-             <img src="https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0003/Normal.png" alt="">  
-             <img src="https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0004/Normal.png" alt="">  
-             <img src="https://raw.githubusercontent.com/PMDCollab/SpriteCollab/master/portrait/0005/Normal.png" alt="">  
-            </div>
-        </div>
+    </div>
+    <section class="mainSec">
+        <div class="containerPokemons"></div>
+        <div class="infosPokemons"></div>
+    </section>
     <footer>
-        <div class="gridF">
-
-        </div>
+        <div class="gridF"></div>
     </footer>
+    <script src="js.js"></script>
 </body>
-<script src="js.js"></script>
 </html>
